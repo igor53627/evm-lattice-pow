@@ -27,6 +27,23 @@ forge build
 forge test -vv
 ```
 
+## Benchmarking
+
+Reproducible benchmark commands:
+
+```bash
+forge test --use 0.8.30 --match-test testGasVerifyReferenceSolution -vv
+forge test --use 0.8.30 --gas-report
+```
+
+Or run both via:
+
+```bash
+./scripts/benchmark_verify.sh
+```
+
+Detailed benchmark notes: `docs/BENCHMARKS.md`.
+
 ## Security Note
 
 `LatticePoWV1` uses deterministic challenge-derived targets for reproducible tests and integration.
