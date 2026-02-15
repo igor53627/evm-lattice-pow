@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 /// @title LatticePoWV1 - Challenge-bound lattice puzzle verifier for EVM
-/// @notice Standalone Layer-4-style primitive extracted from TLOS.
+/// @notice Standalone lattice challenge primitive for application-level throttling.
 /// @dev This is an application-level PoW/CAPTCHA primitive, not a full blockchain consensus PoW.
 contract LatticePoWV1 {
     uint256 public constant N = 128;

@@ -1,6 +1,6 @@
 # LatticePoW (EVM)
 
-`LatticePoW` is a standalone lattice-based challenge primitive extracted from TLOS Layer 4.
+`LatticePoW` is a standalone lattice-based challenge primitive for EVM.
 
 This repository focuses on one thing: challenge/response verification for an LWE-style puzzle over `Z_q`.
 
